@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_crud",
+  "version": "1.0.0",
+  "description": "Nodejs Crud Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivanrivaldi21/nodejs_crud.git"
+  },
+  "keywords": [
+    "Crud"
+  ],
+  "author": "Rivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rivanrivaldi21/nodejs_crud/issues"
+  },
+  "homepage": "https://github.com/rivanrivaldi21/nodejs_crud#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
