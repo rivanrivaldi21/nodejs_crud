@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/customers', (req, res) => {
+    console.log("test");
     console.log("__basedir" + __basedir);
     res.sendFile(path + "customer.html");
 });
