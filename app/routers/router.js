@@ -6,6 +6,7 @@ const customers = require('../controllers/controller.js');
 let path = __basedir + '/views/';
 
 router.get('/', (req, res) => {
+    console.log("Whatsupp Mother !");
     console.log("__basedir" + __basedir);
     res.sendFile(path + "index.html");
 });
